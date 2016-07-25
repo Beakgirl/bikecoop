@@ -1,8 +1,5 @@
-@media (max-width: 500px) {
-	#site-header {
-		font-size: 36px;
-		padding: 5px;
-	}
+* {
+	font-family: sans-serif;
 }
 
 #site-header {
@@ -10,29 +7,34 @@
     background: rgba(0,0,0,0.5);
     height: 100px;
     padding: 20px 20px 0px 20px;
-    width="243" height="79"
 }
 
-body {
-	font-family: sans-serif;
+#site-header {
+	width="24" height="79"
 }
 
-.title {
+#biketitle {
 	text-align: center;
-	font-size: 35px;
+	font-size: 70px;
+}
+
+.site_link {
+	padding-top: 20px;
+	display: inline;
+	padding: 0px 10px 0px 10px;
 }
 
 a {
 	color: 0 0 0 0;
 }
 
-.site_menu {
-	padding-top: 20px;
-	display: inline;
-	padding: 0px 10px 0px 10px;
+h2 {
+	font-size: 60px;
+	text-align: center;
+	padding: 100px;
 }
 
-#paraheader {
+.paraheader {
 	margin: 20px 0 0 0;
 	border-radius: 12px;
 	padding: 20px;
@@ -44,14 +46,19 @@ article {
 	max-width: 600px;
 }
 
-.paragraph1 { 
+#paragraph1 { 
 }
 
-.paragraph2 {
+#paragraph2 {
 
 }
 
-.paragraph3 {
+.socialmedia {
+	color: red;
+	font-variant: small-caps;
+}
+
+#paragraph3 {
 
 }
 
