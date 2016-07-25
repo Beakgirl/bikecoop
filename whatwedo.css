@@ -1,0 +1,17 @@
+#site-header {
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 100px;
+    padding: 20px 20px 0px 20px;
+    width="243" height="79"
+}
+
+body {
+	font-family: sans-serif;
+	max-width: 600px;
+}
+
+.title {
+	text-align: center;
+	font-size: 35px;
+}
