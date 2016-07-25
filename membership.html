@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
+<link href="coding-gals-master/dist/css/bootstrap.css" rel="stylesheet">
+        <link href="membership.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <title>Hello from Bike Coop</title>
 </head>
 <body>
-{% if name %}
-    <h1>Hello {{ name }}!</h1>
-{% else %}
+
+    <h1>Hello</h1>
+
 <h1>Join us!</h1>
-{% endif %}
 
 <div id="contact-form">
 <h1>Become a Bike Coop member!</h1>
@@ -24,7 +26,17 @@
 	<input type="number" name="telephone" placeholder="Telephone">
 	<label for="age">Age: </label>
 	<input type="number" name="Age" placeholder="Age"> 
+	<label for="ridertype">Why do you ride?: </label>
+	<input type="text" name="ridertype" placeholder="We wanna know!!"> 
 	</form>
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Upload a photo of you and your bike!:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+</form>
+
 </div>
+	
+
 </body>
 </html>
