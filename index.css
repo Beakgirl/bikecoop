@@ -6,7 +6,6 @@
     width: 100%;
     background: rgba(0,0,0,0.2);
     height: 100px;
-    padding: 0px 20px 0px 20px;
 }
 
 .first_image {
@@ -23,8 +22,7 @@
 	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
 	font-weight: bold;
-	letter-spacing: -1px;
-	line-height: 1;
+
 }
 
 #site_menu {
@@ -115,3 +113,27 @@ td {
 .bear img {
 	width: 350px;
 }
+
+#social-buttons {
+	text-align: center;
+}
+
+#social-buttons button {
+	margin: 20px;
+	color: white;
+}
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+.btn-facebook {
+	background-color: #4868ac;
+	border-color: #314776;
+}
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26;
+}
+
+
+
