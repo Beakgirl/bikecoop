@@ -4,25 +4,21 @@
 
 #site_header {
     width: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.2);
     height: 100px;
     padding: 0px 20px 0px 20px;
 }
 
-/*not working on the image i want to place in logo
-#site_header.img {
-	position: absolute;
-	left: 20px;
-	top: 20px;
-	width: 300px; 
-	height: 200px;
-	background-color: grey;
+.first_image {
 	box-shadow: 10px 10px 5px #888888;
 }
-*/
 
-h1 {
-	font-size: 275px;
+.first_image img {
+	width: 100%;
+}
+
+.title {
+	font-size: 75px;
 	color: #111;
 	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
@@ -32,7 +28,7 @@ h1 {
 }
 
 #site_menu {
-	padding: 30px 10px 10px 10px;
+	padding: 10px 10px 10px 10px;
 	letter-spacing: 1px;
 }
 
@@ -101,4 +97,21 @@ input[type="submit"] {
 	text-align: left;
 	background: rgb(128, 128, 128);
 	line-height: 120%;
+}
+
+.images {
+	height: 200px;
+	margin: 20px;
+}
+
+td {
+	text-align: center;
+}
+
+.bear {
+	text-align: center;
+}
+
+.bear img {
+	width: 350px;
 }
