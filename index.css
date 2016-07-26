@@ -1,4 +1,4 @@
-* {
+.container {
 	font-family: Arial, sans-serif;
 }
 
@@ -6,37 +6,50 @@
     width: 100%;
     background: rgba(0,0,0,0.5);
     height: 100px;
-    padding: 20px 20px 0px 20px;
+    padding: 0px 20px 0px 20px;
 }
 
-#img.site_header {
-	width="24" height="79"
+/*not working on the image i want to place in logo
+#site_header.img {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	width: 300px; 
+	height: 200px;
+	background-color: grey;
+	box-shadow: 10px 10px 5px #888888;
 }
+*/
 
-#biketitle {
+h1 {
+	font-size: 275px;
 	color: #111;
 	font-family: 'Helvetica Neue', sans-serif;
 	text-align: center;
-	font-size: 275px;
 	font-weight: bold;
 	letter-spacing: -1px;
 	line-height: 1;
 }
 
+#site_menu {
+	padding: 30px 10px 10px 10px;
+	letter-spacing: 1px;
+}
+
 .site_link {
-	padding-top: 20px;
 	display: inline;
 	padding: 0px 10px 0px 10px;
 }
 
 a {
-	color: 0 0 0 0;
+	color: black;
+	text-decoration: bold;
 }
 
 h2 {
 	font-size: 60px;
 	text-align: center;
-	padding: 50px;
+	padding: 30px;
 }
 
 .paraheader {
@@ -67,6 +80,10 @@ article {
 
 }
 
+.style {
+	align-items: center;
+}
+
 input.style {
 	border: 0;
 	padding: 10px;
@@ -80,6 +97,8 @@ input[type="submit"] {
 }
 
 .address {
-	text-align: center;
+	padding: 10px;
+	text-align: left;
 	background: rgb(128, 128, 128);
+	line-height: 120%;
 }
