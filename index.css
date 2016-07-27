@@ -136,4 +136,5 @@ display: inline;
 #social-media-buttons {
 	
 	text-align: center;
+	position: center; fixed;
 } 
