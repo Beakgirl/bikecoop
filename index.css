@@ -1,3 +1,10 @@
+body {
+background-image: url(http://vignette3.wikia.nocookie.net/animal-jam-clans-1/images/7/71/Snow-mountains-background-1.jpg/revision/latest?cb=20160501132624);
+background-repeat: no-repeat;
+background-position: right top;
+background-attachment: fixed;
+}
+
 .container {
 	font-family: Arial, sans-serif;
 }
@@ -101,6 +108,7 @@ input[type="submit"] {
 .images {
 	height: 200px;
 	margin: 20px;
+	border-radius: 25px;
 }
 
 td {
