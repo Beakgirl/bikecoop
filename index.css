@@ -138,3 +138,12 @@ display: inline;
 	text-align: center;
 	position: center; fixed;
 } 
+
+.first-line {
+	padding: 10px 10px 10px 10px;
+}
+
+.second-line {
+	padding: 10px 10px 10px 10px;
+	
+}
