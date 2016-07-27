@@ -119,22 +119,11 @@ td {
 	text-align: center;
 }
 
-#social-buttons button {
-	margin: 20px;
-	color: white;
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
 }
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
-}
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776;
-}
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26;
-}
-
-
-
+ 
