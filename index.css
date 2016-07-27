@@ -132,4 +132,8 @@ border: 0;
 box-shadow: 0;
 display: inline;
 }
- 
+
+#social-media-buttons {
+	
+	text-align: center;
+} 
