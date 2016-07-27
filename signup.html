@@ -45,12 +45,7 @@
 						</ul>
 					</li>
 				</ul>
-				<form class="navbar-form navbar-left">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
-					</div>
-					<button type="submit" class="btn btn-default">Submit</button>
-				</form>
+				
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#">Link</a></li>
 					<li class="dropdown">
@@ -87,7 +82,7 @@
 						<li class="site_link"><a href="second-page.html">Communicate With Us</a></li>
 					</div>
 					<div class="col-sm-4">
-						<li class="site_link"><a href="contact-page.html">Meet Us</a></li>
+						<li class="site_link"><a href="meet_us.html">Meet Us</a></li>
 					</div>
 				</ul>
 			</div>
@@ -100,35 +95,42 @@
 			{% else %}
 			<h1>Hello World!</h1>
 			{% endif %}-->
+			<div class="container">
+				<div id="contact-form">
+					<h1>Get In Touch!</h1>
+					<form method="post" action="/signup">
+						<label for="name">Name: </label>
+						<input type="text" id="name" name="name" value="" placeholder="Name" required="required" autofocus="autofocus" />
+						<label for="email">Email Address: </label>
+						<input type="email" id="email" name="email" value="" placeholder="emailaddress" required="required" />
+						<input type="submit" value="Submit" id="submit-button" />
+						<label for="Telephone">Telephone: </label>
+						<input type="number" name="telephone" placeholder="Telephone">
+						<label for="age">Age: </label>
+						<input type="number" name="Age" placeholder="Age"> 
+					</form>
+				</div>
+			</div>
 
-			<div id="contact-form">
-				<h1>Get In Touch!</h1>
-				<form method="post" action="/signup">
-					<label for="name">Name: </label>
-					<input type="text" id="name" name="name" value="" placeholder="Name" required="required" autofocus="autofocus" />
-					<label for="email">Email Address: </label>
-					<input type="email" id="email" name="email" value="" placeholder="emailaddress" required="required" />
-					<input type="submit" value="Submit" id="submit-button" />
-					<label for="Telephone">Telephone: </label>
-					<input type="number" name="telephone" placeholder="Telephone">
-					<label for="age">Age: </label>
-					<input type="number" name="Age" placeholder="Age"> 
-				</form>
+			<div class="media">
+				<h2>Or follow us on one of these social media platforms!</h2>
+
+				<div id='social-buttons'>
+					<button class='btn btn-lg btn-twitter'>Twitter</button>
+					<button class='btn btn-lg btn-facebook'>Facebook</button>
+					<button class='btn btn-lg btn-pinterest'>Pinterest</button>
+				</div>
+			</div>
+			<hr>
+			<div class="address">
+				<strong>Bike Co-op</strong><br>
+				Find us<br>
+				In the internet<br>
+				Somewhere<br>
 			</div>
 		</div>
-
-		<div class="media">
-			<h2>Or follow us on one of these social media platforms!</h2>
-
-			<div id='social-buttons'>
-				<button class='btn btn-lg btn-twitter'>Twitter</button>
-				<button class='btn btn-lg btn-facebook'>Facebook</button>
-				<button class='btn btn-lg btn-pinterest'>Pinterest</button>
-			</div>
-		</div>
-
-			<input type="email" placeholder="Your email">
-	<input type="Submit">
-
 	</body>
 	</html>
+
+	<!--<input type="email" placeholder="Your email">
+	<input type="Submit">-->
